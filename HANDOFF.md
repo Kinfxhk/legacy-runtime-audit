@@ -68,3 +68,8 @@ assert-based test suite and a packaging script:
   Program Files under `$env:SystemDrive`) and matches by `-like` suffix.
 - Only the 9 rules listed in the task are checked; other EOL software is out of scope.
 - `-Markdown`/`-Json` write UTF-8 (no BOM); `-IncludeComputerName` defaults off for privacy.
+
+
+## Reviewer verification (it-dog)
+
+- KinTest VM (release zip only): clean scan exit 0; with a temporary HKCU uninstall key `Microsoft Silverlight` the scan reported 1 finding and exit 1; key removed afterwards. Same positive check done on the dev PC with `QuickTime 7` under PowerShell 5.1 and 7. Evidence: `evidence/vm/`, `evidence/positive-ps51.txt`.

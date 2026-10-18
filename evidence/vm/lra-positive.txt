@@ -1,0 +1,8 @@
+
+== Legacy Runtime Audit ==
+
+Rule                       Found item                               Version                Evidence                  
+---------------------------------------------------------------------------------------------------------------------
+Microsoft Silverlight      Microsoft Silverlight                    5.1.50918.0            uninstall (HKCU)          
+
+findings=1 info=0
