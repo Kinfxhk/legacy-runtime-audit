@@ -1,0 +1,11 @@
+# Positive check: temporary HKCU uninstall key 'QuickTime 7' created, scanned, then removed (scratch lra-pos.ps1)
+
+== Legacy Runtime Audit ==
+
+Rule                       Found item                               Version                Evidence                  
+---------------------------------------------------------------------------------------------------------------------
+Apple QuickTime for Window QuickTime 7                              7.79.80.95             uninstall (HKCU)          
+
+findings=1 info=0
+EXIT=1
+cleaned=True
